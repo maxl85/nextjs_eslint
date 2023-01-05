@@ -1,0 +1,33 @@
+npx @vue/cli create template
+cd template
+yarn serve
+
+npx @vue/cli create
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+npm run serve
+
+
+npx create-react-app .
+npm i sass
+npm i react-router-dom
+npm install @reduxjs/toolkit react-redux
+npm i axios
+npm i lodash.debounce
+npm i qs
+
+https://create-react-app.dev/docs/adding-css-reset/
+https://github.com/csstools/normalize.css
+https://github.com/vercel/next.js/issues/364#issuecomment-369741156
+
+
+npx create-next-app@latest . --typescript --experimental-app
+//npm i eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+npm i @typescript-eslint/parser @typescript-eslint/eslint-plugin
+npm i classnames
+npm i sass
+npm i @svgr/webpack
+npm i typescript-plugin-css-modules
+https://spin.atomicobject.com/2020/06/22/css-module-typescript/
+https://github.com/mrmckeb/typescript-plugin-css-modules
+
