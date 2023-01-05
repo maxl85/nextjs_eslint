@@ -18,6 +18,19 @@
     "@typescript-eslint/semi": [
       "warn"
     ],
+    "@typescript-eslint/member-delimiter-style": [
+      "warn",
+      {
+        "multiline": {
+          "delimiter": "semi",
+          "requireLast": true
+        },
+        "singleline": {
+          "delimiter": "semi",
+          "requireLast": false
+        }
+      }
+    ],
     "@typescript-eslint/no-empty-interface": [
       "error",
       {
