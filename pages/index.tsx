@@ -2,15 +2,16 @@
 // import { Inter } from '@next/font/google';
 import { useState } from 'react';
 import { Button, Htag, P, Rating, Tag } from '../components';
+import { withLayout } from '../layout/Layout';
 
 // const inter = Inter({ subsets: ['latin'] });
 
-export default function Home(): JSX.Element {
+function Home(): JSX.Element {
   const [rating, setRating] = useState<number>(1);
 
   return (
     <>
-      <main>
+      <div>
         <Htag tag="h1">Text</Htag>
         <Button appearance="primary" arrow="right">Button</Button>
         <Button appearance="ghost" arrow="right">Button</Button>
@@ -23,7 +24,9 @@ export default function Home(): JSX.Element {
         <Tag color="primary">Primary</Tag>
         <Rating rating={3} />
         <Rating rating={rating} isEditable setRating={setRating} />
-      </main>
+      </div>
     </>
   );
 }
+
+export default withLayout(Home);
