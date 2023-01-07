@@ -56,17 +56,21 @@
   border-left: 1px solid #DFDFDF;
 }
 
+.secondLevelBlock {
+  // overflow: hidden;
+  // padding: 0;
+  // list-style: none;
+  display: none;
+}
+
+.secondLevelBlockOpened {
+  display: block;
+}
+
 .secondLevelBlockOpened:last-child {
   margin-bottom: 20px;
 }
 
-.secondLevelBlock {
-  overflow: hidden;
-
-  padding: 0;
-
-  list-style: none;
-}
 
 .thirdLevel {
   display: block;
