@@ -57,5 +57,5 @@ interface CourseProps extends Record<string, unknown> {
   menu: MenuItem[];
   firstCategory: number;
   page: TopPageModel;
-  products: ProductModel[];
+  products: ProductModel;
 }
