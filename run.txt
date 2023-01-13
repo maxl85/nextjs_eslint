@@ -30,4 +30,6 @@ npm i @svgr/webpack
 npm i typescript-plugin-css-modules
 https://spin.atomicobject.com/2020/06/22/css-module-typescript/
 https://github.com/mrmckeb/typescript-plugin-css-modules
+npm i date-fns
+npm i axios
 
